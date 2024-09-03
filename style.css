@@ -7,7 +7,6 @@ header {
   position: sticky;
   top: 0px;
   border-top: solid 5px #16423c;
-  border-bottom: solid 2px #98ded9;
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
   justify-content: center;
@@ -94,7 +93,7 @@ footer {
 }
 .tell-image img {
   width: 40px;
-  transition: background-color 3s;
+  transition: background-color 1s;
 }
 .tell-image img:hover {
   background-color: rgb(47, 171, 234);
@@ -102,7 +101,7 @@ footer {
 }
 .inst-image img {
   width: 40px;
-  transition: background-color 3s;
+  transition: background-color 1s;
 }
 .inst-image img:hover {
   background-color: rgb(174, 73, 246);
