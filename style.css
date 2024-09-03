@@ -1,0 +1,80 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+header {
+  display: flex;
+  position: sticky;
+  top: 0px;
+  border-top: solid 5px #16423c;
+  border-bottom: solid 2px #98ded9;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  justify-content: center;
+  font-family: suse;
+  gap: 20px;
+  background-color: #6a9c89;
+  color: white;
+  font-size: 20px;
+}
+body {
+  background-color: #c4dad2;
+}
+.call-us {
+  transition: background-color 0.5s;
+}
+.call-us:hover {
+  background-color: aliceblue;
+  color: black;
+  cursor: pointer;
+}
+.about-us {
+  transition: background-color 0.5s;
+}
+.about-us:hover {
+  background-color: aliceblue;
+  color: black;
+  cursor: pointer;
+}
+.more-info {
+  transition: background-color 0.5s;
+}
+.more-info:hover {
+  background-color: aliceblue;
+  color: black;
+  cursor: pointer;
+}
+.home {
+  transition: background-color 0.5s;
+}
+.home:hover {
+  background-color: aliceblue;
+  color: black;
+  cursor: pointer;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #e9efec;
+  margin-left: 70px;
+  margin-right: 70px;
+  border-radius: 10px;
+  margin-top: 10px;
+  font-family: suse;
+}
+
+.Info {
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border: solid 1px;
+  border-radius: 5px;
+  padding: 5px;
+}
+img {
+  width: 250px;
+  border-radius: 10px;
+}
